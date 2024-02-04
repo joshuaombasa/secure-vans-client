@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header: React.FC = () => {
     return (
         <div className="header-container">
-            <Link to="/">VANLIFE</Link>
+            <Link to="/"  className="logo">VANLIFE</Link>
             <div className="nav-links">
                 <NavLink 
                     to="about"
