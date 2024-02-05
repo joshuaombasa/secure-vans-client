@@ -1,7 +1,7 @@
 import React from "react";
 import ListedVansItem from "../../components/ListedVansItem";
 
-const ListedVans: React.FC = () => {
+const ListedVans: React.FC = () : JSX.Element => {
     return (
         <div className="listed-vans-page">
             <h1>Your listed vans</h1>
