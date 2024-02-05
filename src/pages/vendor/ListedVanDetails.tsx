@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const ListedVansDetails: React.FC = () => {
+const ListedVansDetails: React.FC = () : JSX.Element => {
     return (
         <div className="listed-van-details">
             <div className="top-area">
