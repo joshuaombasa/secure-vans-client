@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const NotFound: React.FC = () => {
+const NotFound: React.FC = () : JSX.Element => {
     return (
         <div className="not-found-page">
             <div className="not-found-content">
