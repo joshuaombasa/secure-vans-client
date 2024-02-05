@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const About: React.FC = () => {
+const About: React.FC = () : JSX.Element => {
     return (
         <div className='about-page'>
             <div className="about-page-content">
