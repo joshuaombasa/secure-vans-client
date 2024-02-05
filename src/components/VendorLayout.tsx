@@ -4,7 +4,7 @@ import { Outlet } from "../../node_modules/react-router-dom/dist/index";
 
 
 
-const VendorLayout: React.FC = () => {
+const VendorLayout: React.FC = () : JSX.Element => {
     return (
         <div className="vendor-layout">
             <nav className="vendor-layout-nav">
