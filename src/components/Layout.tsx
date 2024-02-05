@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 
 
-const Layout: React.FC = () => {
+const Layout: React.FC = () : JSX.Element => {
     return (
         <div className="layout">
             <Header />
