@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Home: React.FC = () => {
+const Home: React.FC = () : JSX.Element => {
     return (
         <div className='home-page'>
             <div className="home-page-content">
