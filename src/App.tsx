@@ -20,7 +20,7 @@ import ListedVans from './pages/vendor/ListedVans';
 import Reviews from './pages/vendor/Reviews';
 
 
-const App: React.FC = () => {
+const App: React.FC = () : JSX.Element => {
   
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Layout/>}>
