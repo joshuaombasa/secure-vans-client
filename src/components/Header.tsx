@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-const Header: React.FC = () => {
+const Header: React.FC = (): JSX.Element => {
     return (
         <div className="header-container">
             <Link to="/"  className="logo">VANLIFE</Link>
