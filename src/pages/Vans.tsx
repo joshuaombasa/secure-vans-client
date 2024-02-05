@@ -2,7 +2,7 @@ import React from "react";
 import VanCard from "../components/VanCard";
 
 
-const Vans: React.FC = () => {
+const Vans: React.FC = () : JSX.Element => {
     return (
         <div className="vans-page">
             <div className="home-page-content">
